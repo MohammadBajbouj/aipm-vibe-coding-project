@@ -1,0 +1,95 @@
+# Operating systems
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editors and local workspace settings
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Node.js dependencies and package-manager caches
+node_modules/
+.npm/
+.yarn/cache/
+.yarn/install-state.gz
+.pnpm-store/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# JavaScript and TypeScript build output
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.turbo/
+.vite/
+
+# Framework output
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.astro/
+.vercel/
+*.local
+
+# Test and coverage output
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# Python bytecode, environments, and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases and runtime files
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.pid
+
+# AI coding-tool local state
+.claude/settings.local.json
+.continue/
+.aider.chat.history.md
+.aider.input.history
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
