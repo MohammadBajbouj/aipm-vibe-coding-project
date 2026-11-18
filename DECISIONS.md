@@ -1,6 +1,6 @@
 # Product and Build Decisions
 
-Six decisions that shaped the fraud-alert claim check prototype. Full log with all 54 decisions (D1–D54): kept locally in `my_notes/decision_log.md`. "D" = decision ID in that log; quotes are Mohammad (AI PM)'s approval words, copied from the log.
+Six decisions that shaped the fraud-alert claim check prototype. Full log with all 60 decisions (D1–D60): kept locally in `my_notes/decision_log.md`. "D" = decision ID in that log; quotes are Mohammad (AI PM)'s approval words, copied from the log.
 
 *Status: drafted by Claude Cowork, confirmed by Mohammad (AI PM) (D58).*
 

@@ -26,9 +26,9 @@ Screenshots: [A-1042 – two reasons not confirmed](assets/screenshot-alert-a104
 
 ### Technical Evidence
 
-- **Install and run verification:** no install needed – `index.html` opens in any browser, also offline. Clean-start run by Claude Code: build OK, generated `index.html` identical, no external requests (reply 08b).
+- **Install and run verification:** no install needed – `index.html` opens in any browser, also offline. Clean-start run by Claude Code: build OK, generated `index.html` identical, no external requests (reply 08b). Gemini setup test of the README: 5 × yes, 2 × partly – both fixed (D59).
 - **Tests, lint, type checks, or build commands completed:** `python3 -m unittest discover -s tests -v` – 22 of 22 pass (Claude Code, 2026-11-18, Python 3.9.6, reply 09). Build `python3 app/build.py`. Lint left out on purpose (D2).
-- **Environment or behaviour not verified:** Windows; screen readers; Chrome on the Mac (did not open – Safari used, D44); Gemini setup test of the README still pending (D45).
+- **Environment or behaviour not verified:** Windows; screen readers; Chrome on the Mac (did not open – Safari used, D44).
 
 ## Working with Claude Code
 
