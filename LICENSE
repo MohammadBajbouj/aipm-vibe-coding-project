@@ -1,21 +1,21 @@
-MIT License
+Fraud-alert claim check – analyst screen prototype
+© 2026 Mohammad Bajbouj. All rights reserved.
 
-Copyright (c) 2026 neuefische GmbH
+Built by Mohammad Bajbouj (AI PM) during the neuefische AI PM bootcamp,
+reusing and extending the neuefische project template. Product decisions by
+Mohammad Bajbouj (AI PM). Parts drafted with Claude by Anthropic
+(Claude Cowork, Claude Code); no ownership of AI-generated text or code is
+claimed. Reviewed by Gemini (Google). All data is synthetic.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+No part of this project may be copied, reused or distributed without the
+written permission of Mohammad Bajbouj.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---------------------------------------------------------------------------
+The following files are neuefische template material and are NOT part of
+this project's own work:
+- 01-direct-claude-code.md
+- 02-project-handout.md
+- assets/capstone-showcase-evidence.png
+- assets/claude-delegation-loop.png
+- assets/vertical-slice-scope.png
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

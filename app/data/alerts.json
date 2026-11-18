@@ -1,0 +1,131 @@
+{
+  "_note": "Synthetic demo data only (D16, D24). No real bank, customer or AI-model data. Copilot reasons and weights are mocked. Customer and analyst are IDs, not names. Each claim = field + claimed value, compared with the record value of the same field (D19).",
+  "alerts": [
+    {
+      "id": "A-1042",
+      "customer_id": "CU-58213",
+      "assigned_analyst_id": "AN-014",
+      "payment": {
+        "time": "2026-11-17 09:42",
+        "amount_eur": 1240.00,
+        "merchant": "Online electronics shop (synthetic)",
+        "country": "Netherlands",
+        "channel": "Card, online"
+      },
+      "funds_available": true,
+      "claims": [
+        {
+          "text": "Payment made from a new, unknown device",
+          "field": "device_known",
+          "type": "yesno",
+          "claimed": false,
+          "record": true,
+          "record_label": "device known for 8 months"
+        },
+        {
+          "text": "Amount is 6 times the customer's average",
+          "field": "amount_vs_average",
+          "type": "number",
+          "claimed": 6.0,
+          "record": 2.1,
+          "record_label": "2.1 × average"
+        },
+        {
+          "text": "Merchant is outside the customer's home country",
+          "field": "merchant_abroad",
+          "type": "yesno",
+          "claimed": true,
+          "record": true,
+          "record_label": "abroad (Netherlands)"
+        }
+      ],
+      "suggestion_weights": {"release": 10, "block": 70, "call": 20},
+      "previous_devices": []
+    },
+    {
+      "id": "A-1043",
+      "customer_id": "CU-60477",
+      "assigned_analyst_id": "AN-014",
+      "payment": {
+        "time": "2026-11-17 10:15",
+        "amount_eur": 480.00,
+        "merchant": "Gift-card web store (synthetic)",
+        "country": "Germany",
+        "channel": "Card, online"
+      },
+      "funds_available": true,
+      "claims": [
+        {
+          "text": "Payment made from a new, unknown device",
+          "field": "device_known",
+          "type": "yesno",
+          "claimed": false,
+          "record": false,
+          "record_label": "device first seen today"
+        },
+        {
+          "text": "Amount is 4 times the customer's average",
+          "field": "amount_vs_average",
+          "type": "number",
+          "claimed": 4.0,
+          "record": 4.2,
+          "record_label": "4.2 × average"
+        },
+        {
+          "text": "Merchant category is high risk (gift cards)",
+          "field": "merchant_high_risk",
+          "type": "yesno",
+          "claimed": true,
+          "record": true,
+          "record_label": "category: gift cards (high risk)"
+        }
+      ],
+      "suggestion_weights": {"release": 5, "block": 35, "call": 60},
+      "previous_devices": []
+    },
+    {
+      "id": "A-1044",
+      "customer_id": "CU-71930",
+      "assigned_analyst_id": "AN-022",
+      "payment": {
+        "time": "2026-11-17 02:31",
+        "amount_eur": 95.50,
+        "merchant": "Food delivery app (synthetic)",
+        "country": "Germany",
+        "channel": "Card, in app"
+      },
+      "funds_available": false,
+      "claims": [
+        {
+          "text": "Payment made from a new, unknown device",
+          "field": "device_known",
+          "type": "yesno",
+          "claimed": false,
+          "record": null,
+          "record_label": "device data not available"
+        },
+        {
+          "text": "Amount is 1.5 times the customer's average",
+          "field": "amount_vs_average",
+          "type": "number",
+          "claimed": 1.5,
+          "record": 1.4,
+          "record_label": "1.4 × average"
+        },
+        {
+          "text": "Payment made at night (00:00–05:00)",
+          "field": "night_time",
+          "type": "yesno",
+          "claimed": true,
+          "record": true,
+          "record_label": "paid at 02:31"
+        }
+      ],
+      "suggestion_weights": {"release": 40, "block": 10, "call": 50},
+      "previous_devices": [
+        {"name": "Smartphone A (synthetic)", "known_since": "2024-03"},
+        {"name": "Tablet B (synthetic)", "known_since": "2025-01"}
+      ]
+    }
+  ]
+}
